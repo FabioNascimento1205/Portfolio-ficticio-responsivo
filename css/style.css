@@ -1,0 +1,121 @@
+#container {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5));
+    background-image: url(../assents/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+#menu-burguer {
+    color: #76ee90;
+    cursor: pointer;
+    display: none;
+}
+
+#area-logo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    text-align: center;
+    padding: 1.5em;
+}
+
+#logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #76ee90;
+    color: #76ee90;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    font-weight: 500;
+        
+}
+
+#nav_menu a {
+    color: #fff;
+    font-size: 1em;
+}
+
+#nav_menu a:hover {
+    color: #76ee90;
+    transition: 0.3s all;
+}
+
+button {
+    color: #76ee90;
+    background: transparent;
+    border: 1px solid #76ee90;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+}
+
+button:hover {
+    background: #76ee90;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#conteudo {
+    padding: 150px 0 0 130px;
+}
+
+#text h3 {
+    color: #fff;
+    font-size: 0.9em;
+    padding-bottom: 5px;
+}
+
+#text h1 {
+    color: #fff;
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+#text span {
+    color: #76ee90;
+}
+
+#text p {
+    color: #fff;
+    font-size: 0.8em;
+    padding-bottom: 8px;
+}
+
+#redes-sociais {
+    padding-left: 5px;
+}
+
+#redes-sociais a i {
+    color: #76ee90;
+    font-size: 1.2em;
+    padding: 0 15px 0 0;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-top: 37vh;
+    color: #76ee90;
+}
